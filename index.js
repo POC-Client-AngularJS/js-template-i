@@ -58,7 +58,7 @@ function processForm(e) {
    * Perform operations on form submit.
    */
   let strSampleString = document.getElementById("idInpSampleString").value;
-  document.getElementById("idSpanReversedString").innerHTML = reverseString2(
+  document.getElementById("idSpanReversedString").innerHTML = reverseString1(
     strSampleString
   );
   /*
